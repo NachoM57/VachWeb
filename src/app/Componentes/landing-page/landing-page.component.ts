@@ -7,11 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent implements OnInit {
+
   constructor(public router: Router) { }
 
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void { }
 
 }

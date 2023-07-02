@@ -10,4 +10,5 @@ export class InicioComponent {
 
   constructor(public router: Router) { }
 
+
 }
