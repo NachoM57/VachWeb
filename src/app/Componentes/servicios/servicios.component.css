@@ -45,7 +45,7 @@ a {
   position: relative;
   width: 100%;
   height: 2px;
-  background-color: #000000;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,6 +142,14 @@ a {
   padding: 1rem;
 }
 
+
+.menu-wrap .menu>div>div>ul>li:hover {
+  list-style: none;
+  color: #c4caff;
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
 .menu-wrap .menu>div>div>ul>li>a {
   color: inherit;
   text-decoration: none;
@@ -153,41 +161,36 @@ a {
 
 
 
-body {
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-  background-color: hsl(0, 0%, 98%);
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
-.attribution { 
-  font-size: 11px; text-align: center; 
-}
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 h1:first-of-type {
-  font-weight:  200;
-  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  color: hsl(0, 0%, 100%);
   font-family: "Jost", sans-serif;
-
+  margin-top: 20px;
 }
 
 h1:last-of-type {
-  color: hsl(234, 12%, 34%);
+  color: hsl(0, 0%, 100%);
 }
 
 @media (max-width: 400px) {
   h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
 .header {
   text-align: center;
   line-height: 0.8;
-  margin-bottom: 50px;
-  margin-top: 40px;
 }
 
 .header p {
@@ -202,70 +205,88 @@ h1:last-of-type {
 }
 
 .box {
+  position: relative;
   border-radius: 5px;
-  box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+
   padding: 30px;
-  margin: 20px;  
+  margin: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
-img {
+.box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   float: right;
+  width: 50px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 950px) {
   .box {
-      height: 200px;
+    text-align: center;
+    height: auto;
   }
 }
 
+
 @media (max-width: 950px) and (min-width: 450px) {
   .box {
-      text-align: center;
-      height: 180px;
+    text-align: center;
+    height: 220px;
   }
 }
 
 .cyan {
-  border-top: 3px solid hsl(180, 62%, 55%);
-}
-.red {
-  border-top: 3px solid hsl(0, 78%, 62%);
-}
-.blue {
-  border-top: 3px solid hsl(212, 86%, 64%);
-}
-.orange {
-  border-top: 3px solid hsl(34, 97%, 64%);
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 
-h2 {
+.red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+h3 {
   color: hsl(234, 12%, 34%);
   font-weight: 600;
+  display: flex;
 }
+
 
 
 @media (min-width: 950px) {
   .row1-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   .row2-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .box-down {
-      position: relative;
-      top: 150px;
+    position: relative;
+    top: 150px;
   }
+
   .box {
-      width: 20%;
-   
+    width: 20%;
+
   }
+
   .header p {
-      width: 30%;
+    width: 30%;
   }
-  
+
 }
