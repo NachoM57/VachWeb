@@ -1,3 +1,28 @@
 {
-    
+    "Servicios": [
+        {
+            "id": 1,
+            "titulo": "Sitios Web Responsivos",
+            "descripcion": "Creación de sitios web adaptativos que se ven y funcionan correctamente en dispositivos móviles, tabletas y ordenadores de escritorio.",
+            "imagen": "https://assets.codepen.io/2301174/icon-supervisor.svg"
+        },
+        {
+            "id": 2,
+            "titulo": "Diseño Web Perzonalido",
+            "descripcion": "Creación de sitios web únicos y atractivos que se adapten a las necesidades y la identidad visual de tu empresa.",
+            "imagen": "https://assets.codepen.io/2301174/icon-team-builder.svg"
+        },
+        {
+            "id": 3,
+            "titulo": "Sitios Web Estáticos",
+            "descripcion": "Construcción de sitios web básicos y ligeros utilizando HTML, CSS y JavaScript, ideales para proyectos simples o páginas de inicio.",
+            "imagen": "https://assets.codepen.io/2301174/icon-calculator.svg"
+        },
+        {
+            "id": 4,
+            "titulo": "Inicio",
+            "descripcion": "Creación de sitios web interactivos y dinámicos utilizando tecnología como Angular, que permiten una experiencia más enriquecedora para el usuario.",
+            "imagen": "https://assets.codepen.io/2301174/icon-karma.svg"
+        }
+    ]
 }

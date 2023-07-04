@@ -8,3 +8,12 @@ body {
     font-family: "Open Sans", sans-serif;
     background: #37517e;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Jost", sans-serif;
+}
