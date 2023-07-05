@@ -1,34 +1,15 @@
 <app-menu></app-menu>
 
 <!--Body seccion-->
-<!--Body seccion-->
 <div class="header">
-  <h1>Trabajos</h1>
+  <h1>Trabajos Realizados</h1>
 </div>
 <div class="container">
   <div class="row">
-    <div class="card g-0" style="width: 20rem;">
-      <a href="https://departamento-mar-del-plata.web.app/" target="_blank"><img src="../../../assets/imagenes/mdq.webp" class="card-img-top" alt="..."></a>
+    <div class="card g-0" style="width: 20rem;" *ngFor="let pagina of  paginas">
+      <a href={{pagina.enlace}} target="_blank"><img src={{pagina.imagen}} class="card-img-top" alt="..."></a>
       <div class="card-body">
-        <p><strong>Departamento Mar del Plata</strong></p>
-      </div>
-    </div>
-    <div class="card g-0" style="width: 20rem;">
-      <a href="https://frontend-cafe-bba77.web.app/" target="_blank"><img src="../../../assets/imagenes/cafeteria.jpg" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <p><strong>Cafeteria</strong></p>
-      </div>
-    </div>
-    <div class="card g-0" style="width: 20rem;">
-      <a href="https://frontend-argentina-progr-6523c.web.app/index" target="_blank"><img src="../../../assets/imagenes/pc2.jpeg" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <p><strong>Portafolio Personal</strong></p>
-      </div>
-    </div>
-    <div class="card g-0" style="width: 20rem;">
-      <a href="" target="_blank"><img src="../../../assets/imagenes/pc.webp" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <p><strong>Code Web</strong></p>
+        <p><strong>{{pagina.titulo}}</strong></p>
       </div>
     </div>
   </div>

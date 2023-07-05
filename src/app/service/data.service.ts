@@ -9,13 +9,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-//el primer hhtp se llama "alias"
-  constructor(private http:HttpClient) { }
+  //el primer hhtp se llama "alias"
+  constructor(private http: HttpClient) { }
 
   //metodo observable que devuelve los datos
-  getDatos():Observable<any>{
-//se llama al json con su path -ruta-, o bien, en su lugar se pujuede poner una URL para traer datos de un json online
-return this.http.get('./assets/json/landing.json');
+  getDatos(): Observable<any> {
+    //se llama al json con su path -ruta-, o bien, en su lugar se pujuede poner una URL para traer datos de un json online
+    return this.http.get('./assets/json/landing.json');
   }
 
 

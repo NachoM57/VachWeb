@@ -19,13 +19,13 @@ import { MenuComponent } from './Componentes/menu/menu.component';
     ServiciosComponent,
     PaginasComponent,
     ContactoComponent,
-    MenuComponent,  
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
-],
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

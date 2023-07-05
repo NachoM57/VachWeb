@@ -2,12 +2,17 @@
 
 <!--Body seccion-->
 <div class="header">
-  <h1>Trabajos</h1>
+  <h1>Contacto</h1>
 </div>
 <section id="contacto">
   <div class="formulario">
- 
-    <form id="contact-form">
+    <ul class="wrapper">
+      <li class="icon instagram">
+        <span class="tooltip">Instagram</span>
+        <span><a href="https://www.instagram.com/codeweb_/"><i class="fab fa-instagram"></i></a></span>
+      </li>
+    </ul>
+    <form id="contact-form" action="https://formspree.io/f/xbjvjjjw" method="post">
       <label for="name">Nombre:</label>
       <input type="text" id="name" name="name" required>
       <label for="email">Email:</label>
@@ -16,6 +21,6 @@
       <textarea id="message" name="message" required></textarea>
       <input type="submit" value="Enviar">
     </form>
-</div>
+  </div>
 </section>
 <!--Fin Body seccion-->

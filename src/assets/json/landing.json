@@ -1,28 +1,28 @@
 {
-    "Servicios": [
+    "paginas": [
         {
             "id": 1,
-            "titulo": "Sitios Web Responsivos",
-            "descripcion": "Creación de sitios web adaptativos que se ven y funcionan correctamente en dispositivos móviles, tabletas y ordenadores de escritorio.",
-            "imagen": "https://assets.codepen.io/2301174/icon-supervisor.svg"
+            "enlace": "https://departamento-mar-del-plata.web.app/",
+            "imagen": "../../../assets/imagenes/mdq.webp",
+            "titulo": "Departamento Mar del Plata"
         },
         {
             "id": 2,
-            "titulo": "Diseño Web Perzonalido",
-            "descripcion": "Creación de sitios web únicos y atractivos que se adapten a las necesidades y la identidad visual de tu empresa.",
-            "imagen": "https://assets.codepen.io/2301174/icon-team-builder.svg"
+            "enlace": "https://frontend-cafe-bba77.web.app/",
+            "imagen": "../../../assets/imagenes/cafeteria.jpg",
+            "titulo": "Cafeteria"
         },
         {
             "id": 3,
-            "titulo": "Sitios Web Estáticos",
-            "descripcion": "Construcción de sitios web básicos y ligeros utilizando HTML, CSS y JavaScript, ideales para proyectos simples o páginas de inicio.",
-            "imagen": "https://assets.codepen.io/2301174/icon-calculator.svg"
+            "enlace": "https://frontend-argentina-progr-6523c.web.app/index",
+            "imagen": "../../../assets/imagenes/pc2.jpeg",
+            "titulo": "Portafolio Personal"
         },
         {
             "id": 4,
-            "titulo": "Inicio",
-            "descripcion": "Creación de sitios web interactivos y dinámicos utilizando tecnología como Angular, que permiten una experiencia más enriquecedora para el usuario.",
-            "imagen": "https://assets.codepen.io/2301174/icon-karma.svg"
+            "enlace": "",
+            "imagen": "../../../assets/imagenes/pc.webp",
+            "titulo": "Code Web"
         }
     ]
 }
