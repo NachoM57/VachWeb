@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-landing-page',
-  templateUrl: './landing-page.component.html',
-  styleUrls: ['./landing-page.component.css']
+  selector: 'app-banner',
+  templateUrl: './banner.component.html',
+  styleUrls: ['./banner.component.css']
 })
-export class LandingPageComponent implements OnInit {
+export class BannerComponent implements OnInit {
 
   constructor(public router: Router) { }
 
