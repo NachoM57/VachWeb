@@ -31,7 +31,7 @@
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background-color: #47b2e4;
+  background-color: #6C63FF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,8 +169,8 @@ a {
 
 
 #header {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #1f93c9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288);
+  background-color: #a8a3ff;
   transition: all 0.5s;
   padding: 15px 0;
 }
@@ -203,7 +203,7 @@ a {
 #hero {
   width: 100%;
   height: 721px;
-  background: #37517e;
+  background-color: #ffffff;
 }
 
 #hero .container {
@@ -215,11 +215,11 @@ a {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000000;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(52, 52, 52, 0.742);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -234,35 +234,16 @@ a {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
-  background: #47b2e4;
+  color: #000000;
+  background: #a8a3ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #6C63FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  line-height: 1;
-}
-
-#hero .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #47b2e4;
-}
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;

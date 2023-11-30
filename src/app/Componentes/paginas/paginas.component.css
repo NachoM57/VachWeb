@@ -1,3 +1,7 @@
+#paginas {
+ margin-top: 100px;
+}
+
 .header {
   text-align: center;
   line-height: 0.8;
@@ -5,13 +9,12 @@
 
 h1:first-of-type {
   font-weight: 200;
-  color: hsl(0, 0%, 100%);
-  font-family: "Jost", sans-serif;
+  color: hsl(0, 0%, 0%);
   margin-top: 20px;
 }
 
 h1:last-of-type {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
 }
 
 @media (max-width: 400px) {
