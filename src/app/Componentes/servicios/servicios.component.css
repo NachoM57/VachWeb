@@ -17,7 +17,6 @@
 }
 
 h1:first-of-type {
-  font-weight: 200;
   color: hsl(0, 0%, 100%);
   margin-top: 20px;
   font-size: 50px;
@@ -58,7 +57,7 @@ p:not(:last-child) {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 400px;
   height: 400px;
   padding: 35px;
@@ -70,10 +69,6 @@ p:not(:last-child) {
   backdrop-filter: blur(15px);
 }
 
-.card-footer {
-  font-size: 0.65em;
-  color: #446;
-}
 
 
 @media screen and (max-width: 1070px) {
@@ -88,10 +83,6 @@ p:not(:last-child) {
     margin-bottom: 20px; 
   }
 
-
-  .card-footer {
-    font-size: 0.8em; 
-  }
 }
 
 
