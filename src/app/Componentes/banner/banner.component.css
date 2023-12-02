@@ -112,7 +112,7 @@
 }
 
 .menu-wrap .menu>div {
-  background-color: rgba(24, 39, 51, 0.85);
+  background-color: rgba(0, 0, 0, 0.85);
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
@@ -152,8 +152,7 @@
 
 .menu-wrap .menu>div>div>ul>li>a:hover {
   padding: 15px;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
+  color: #6C63FF;
 }
 
 /*Fin Menu hamburguesa*/
@@ -212,10 +211,10 @@ a {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 56px;
-  color: #000000;
+  color: #252161;
 }
 
 #hero h2 {
@@ -234,13 +233,12 @@ a {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #000000;
-  background: #a8a3ff;
+  color: #ffffff;
+  background: #6C63FF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #hero .btn-get-started:hover {
-  background: #6C63FF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 

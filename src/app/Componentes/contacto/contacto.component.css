@@ -7,18 +7,12 @@ h1:first-of-type {
   font-weight: 200;
   color: hsl(0, 0%, 100%);
   margin-top: 20px;
+  font-size: 50px;
 }
 
 h1:last-of-type {
   color: hsl(0, 0%, 100%);
 }
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-}
-
 
 
 
