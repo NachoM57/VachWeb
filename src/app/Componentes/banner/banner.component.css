@@ -1,3 +1,8 @@
+#header img {
+  width: 180px;
+}
+
+
 /*Menu hamburguesa*/
 
 .menu-pointer {
@@ -28,8 +33,8 @@
   top: 0;
   left: 0;
   z-index: 1;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   padding: 1rem;
   background-color: #6C63FF;
   display: flex;
