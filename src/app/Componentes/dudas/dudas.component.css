@@ -4,13 +4,13 @@
 
 
 h1:first-of-type {
-  color: #380a70;
+  color: #1f063d;
   margin-top: 20px;
   font-size: 45px;
 }
 
 h1:last-of-type {
-  color: #380a70;
+  color: #1f063d;
 }
 
 
@@ -40,6 +40,10 @@ h1:last-of-type {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+}
+
+.why-us .accordion-list li:hover {
+  background-color: rgb(224, 227, 255);
 }
 
 .why-us .accordion-list a {
@@ -80,10 +84,6 @@ h1:last-of-type {
 
 .why-us .accordion-list a.collapse {
   color: #343a40;
-}
-
-.why-us .accordion-list a.collapse:hover {
-  color: #47b2e4;
 }
 
 .why-us .accordion-list a.collapse .icon-show {

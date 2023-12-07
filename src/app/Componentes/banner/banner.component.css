@@ -244,11 +244,12 @@ a {
   margin: 10px 0 0 0;
   color: #ffffff;
   background: #0597F2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.553);
+  transition: transform 0.3s;
 }
 
 #hero .btn-get-started:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.04);
 }
 
 

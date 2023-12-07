@@ -53,7 +53,6 @@ p:not(:last-child) {
 }
 
 
-
 .card {
   display: flex;
   flex-direction: column;
