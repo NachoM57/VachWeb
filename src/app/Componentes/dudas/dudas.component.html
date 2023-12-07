@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-7">
-        <h1 class="text-center">Dudas que te pueden surgir</h1>
+        <h1 class="text-center">Dudas que pueden surgirte</h1>
         <div class="accordion-list">
           <ul>
-            <li *ngFor="let item of accordionItems; let i = index">
-              <a (click)="toggleItem(i)" class="collapse">
+            <li (click)="toggleItem(i)" *ngFor="let item of accordionItems; let i = index">
+              <a class="collapse">
                 <span>{{ i+1 < 10 ? '0' : ''}}{{ i+1 }}</span> {{ item.title }}
                 <i class="fa" [ngClass]="{'fa-chevron-down': !item.isOpen, 'fa-chevron-up': item.isOpen}"></i>
               </a>

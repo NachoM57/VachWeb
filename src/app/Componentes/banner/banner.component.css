@@ -34,7 +34,7 @@
   left: 0;
   z-index: 1;
   width: 70px;
-  height: 70px;
+  height: 71px;
   padding: 1rem;
   background-color: #6C63FF;
   display: flex;
@@ -222,6 +222,10 @@ a {
   color: #000000d8;
 }
 
+#hero h1 span {
+  color: #0597F2;
+}
+
 #hero h2 {
   color: rgba(52, 52, 52, 0.742);
   margin-bottom: 50px;
@@ -239,7 +243,7 @@ a {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #ffffff;
-  background: #6C63FF;
+  background: #0597F2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
