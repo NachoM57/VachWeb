@@ -1,3 +1,12 @@
+#contacto {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .header {
   text-align: center;
   line-height: 0.8;
@@ -52,14 +61,6 @@ input[type="submit"]:hover {
   width: 100%;
 }
 
-
-
-#contacto {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 
 label {

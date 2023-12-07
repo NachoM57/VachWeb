@@ -1,0 +1,107 @@
+#why-us {
+  background-image: linear-gradient(to top, #6f86d6 0%, #48c6ef 100%);
+}
+
+
+h1:first-of-type {
+  color: #380a70;
+  margin-top: 20px;
+  font-size: 45px;
+}
+
+h1:last-of-type {
+  color: #380a70;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us .accordion-list {
+  margin-top: 40px;
+  padding: 0 100px 60px 100px;
+}
+
+.why-us .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-us .accordion-list li+li {
+  margin-top: 15px;
+}
+
+.why-us .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.why-us .accordion-list a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.why-us .accordion-list span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.why-us .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.why-us .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+
+
+.why-us .accordion-list a.collapse {
+  color: #343a40;
+}
+
+.why-us .accordion-list a.collapse:hover {
+  color: #47b2e4;
+}
+
+.why-us .accordion-list a.collapse .icon-show {
+  display: inline-block;
+}
+
+.why-us .accordion-list a.collapse .icon-close {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+  .why-us .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .why-us .accordion-list {
+    padding-bottom: 30px;
+  }
+}

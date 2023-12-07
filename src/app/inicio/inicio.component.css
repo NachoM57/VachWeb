@@ -27,13 +27,13 @@
   bottom: 20px;
   left: 20px;
   /* Cambiado de right a left */
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 0;
   height: 0;
-  padding: 35px;
+  padding: 30px;
   text-decoration: none;
   border-radius: 50%;
   animation-name: pulse;
