@@ -2,6 +2,10 @@
   margin-top: 100px;
 }
 
+.container {
+  margin-top: 100px;
+}
+
 h1:first-of-type {
   color: hsl(0, 0%, 0%);
   margin-top: 20px;
@@ -12,28 +16,11 @@ h1:last-of-type {
   color: hsl(0, 0%, 0%);
 }
 
-
-.celular img {
-  width: 400px;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.lista {
-  width: 700px;
-}
-
 .list-group-item {
   border: none;
-  font-size: 20px;
+  font-size: 1.40em; /* Tamaño adaptable */
   font-weight: 500;
 }
-
 
 .imgvisto {
   width: 40px;
