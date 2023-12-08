@@ -304,6 +304,7 @@ a {
   }
 }
 
+
 @keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -315,8 +316,3 @@ a {
 }
 
 /*banner*/
-
-
-
-
-

@@ -13,6 +13,7 @@ import { NosotrosComponent } from './Componentes/nosotros/nosotros.component';
 import { RegaloComponent } from './Componentes/regalo/regalo.component';
 import { DudasComponent } from './Componentes/dudas/dudas.component';
 import { BeneficiosComponent } from './Componentes/beneficios/beneficios.component';
+import { NuestrasAppComponent } from './Componentes/nuestras-app/nuestras-app.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { BeneficiosComponent } from './Componentes/beneficios/beneficios.compone
     RegaloComponent,
     DudasComponent,
     BeneficiosComponent,
+    NuestrasAppComponent,
   ],
   imports: [
     BrowserModule,
