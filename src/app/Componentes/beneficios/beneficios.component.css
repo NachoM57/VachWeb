@@ -13,6 +13,10 @@ h1:first-of-type {
   font-size: 50px;
 }
 
+h1:last-of-type {
+  color: hsl(0, 0%, 0%);
+}
+
 h1 span {
   color: #0597F2;
 }

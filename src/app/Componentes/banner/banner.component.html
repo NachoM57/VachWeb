@@ -13,16 +13,25 @@
           <div>
             <ul>
               <li>
-                <a class="menu-pointer" href="/Inicio">Inicio</a>
+                <a class="menu-pointer" href="#hero" (click)="navigateTo($event,'hero')">Inicio</a>
               </li>
               <li>
-                <a class="menu-pointer" routerLink="/Servicios">Servicios</a>
+                <a class="menu-pointer" href="#servicios" (click)="navigateTo($event,'servicios')">Servicios</a>
               </li>
               <li>
-                <a class="menu-pointer" routerLink="/Paginas">Trabajos Realizados</a>
+                <a class="menu-pointer" href="#beneficios" (click)="navigateTo($event,'beneficios')">Beneficios</a>
               </li>
               <li>
-                <a class="menu-pointer" routerLink="/Contacto">Contacto</a>
+                <a class="menu-pointer" href="#why-us" (click)="navigateTo($event,'why-us')">Preguntas</a>
+              </li>
+              <li>
+                <a class="menu-pointer" href="#tipos" (click)="navigateTo($event,'tipos')">Tipos de páginas</a>
+              </li>
+              <li>
+                <a class="menu-pointer" href="#paginas" (click)="navigateTo($event,'paginas')">Trabajos realizados</a>
+              </li>
+              <li>
+                <a class="menu-pointer" href="#contacto" (click)="navigateTo($event,'contacto')">Contacto</a>
               </li>
             </ul>
           </div>
@@ -40,7 +49,8 @@
         <h1>Transformando ideas en <span>experiencias digitales</span></h1>
         <h2>Contáctenos y convierta su página web en un reflejo fiel de su identidad y visión.</h2>
         <div class="d-flex justify-content-center justify-content-lg-start">
-          <a href="https://wa.me/3537661920" class="btn-get-started scrollto" target="_blank" rel="noopener noreferrer">Quiero mi pagina web!</a>
+          <a href="https://wa.me/3537661920" class="btn-get-started scrollto" target="_blank"
+            rel="noopener noreferrer">Quiero mi pagina web!</a>
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos-delay="200">

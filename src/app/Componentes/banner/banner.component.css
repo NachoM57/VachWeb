@@ -152,12 +152,12 @@
 
 
 .menu-wrap .menu>div>div>ul>li>a {
+  font-size: 25px;
   color: inherit;
   text-decoration: none;
 }
 
 .menu-wrap .menu>div>div>ul>li>a:hover {
-  padding: 15px;
   color: #6C63FF;
 }
 
@@ -257,6 +257,8 @@ a {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+
 
 @media (max-width: 991px) {
   #hero {
