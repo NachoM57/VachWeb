@@ -92,7 +92,7 @@ p:not(:last-child) {
   }
 
   .card {
-    width: 90%; /* Ajusta el ancho para dispositivos más pequeños */
+    width: 100%; /* Ajusta el ancho para dispositivos más pequeños */
     min-height: 250px;
     padding: 20px;
     margin: 20px auto; /* Margen automático para centrar horizontalmente */

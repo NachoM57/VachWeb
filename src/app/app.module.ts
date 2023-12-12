@@ -16,6 +16,7 @@ import { BeneficiosComponent } from './Componentes/beneficios/beneficios.compone
 import { NuestrasAppComponent } from './Componentes/nuestras-app/nuestras-app.component';
 import { TiposComponent } from './Componentes/tipos/tipos.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

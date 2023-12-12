@@ -3,7 +3,7 @@
     font: 1em/1.618 Inter, sans-serif;
     height: 400px;
     padding: 30px;
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    background-image: linear-gradient(to top, #7d1bf9 0%, #5a1bf9 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +13,11 @@
 
 h1 {
     font-size: 80px;
-    font-weight:700;
-    color: #380a70;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.905);
 }

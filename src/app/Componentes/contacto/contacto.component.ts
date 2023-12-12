@@ -10,7 +10,4 @@ export class ContactoComponent {
 
   constructor(public router: Router) { }
 
-
 }
-
-

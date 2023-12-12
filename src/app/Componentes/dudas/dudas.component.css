@@ -1,16 +1,16 @@
 #why-us {
-  background-image: linear-gradient(to top, #6f86d6 0%, #48c6ef 100%);
+background-color:  #7d1bf9;
 }
 
 
 h1:first-of-type {
-  color: #380a70;
+  color: #ffffff;
   margin-top: 20px;
   font-size: 45px;
 }
 
 h1:last-of-type {
-  color: #380a70;
+  color: #ffffff;
 }
 
 
@@ -43,7 +43,7 @@ h1:last-of-type {
 }
 
 .why-us .accordion-list li:hover {
-  background-color: rgb(224, 227, 255);
+  background-color: rgb(243, 244, 255);
 }
 
 .why-us .accordion-list a {

@@ -142,13 +142,9 @@
   list-style: none;
   color: #fff;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 10px;
 }
 
-.menu-wrap .menu>div>div>ul>li:hover {
-  list-style: none;
-  padding: 1rem;
-}
 
 
 .menu-wrap .menu>div>div>ul>li>a {
@@ -174,7 +170,7 @@ a {
 
 #header {
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
   background-color: #a8a3ff;
   transition: all 0.5s;
   padding: 15px 0;
@@ -217,7 +213,7 @@ a {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 50px;
+  font-size: 57px;
   font-weight: 700;
   line-height: 56px;
   color: #000000d8;
@@ -245,16 +241,18 @@ a {
   margin: 10px 0 0 0;
   color: #ffffff;
   background: #0597F2;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.553);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.265);
   transition: transform 0.3s;
 }
 
 #hero .btn-get-started:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.383);
   transform: scale(1.04);
 }
 
 
 #hero .animated {
+  margin-left: 111px;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -266,9 +264,7 @@ a {
     text-align: center;
   }
 
-  #hero .animated {
-    animation: none;
-  }
+
 
   #hero .hero-img {
     text-align: center;
