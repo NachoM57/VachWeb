@@ -45,7 +45,8 @@ h1:last-of-type {
 }
 
 p {
-  margin: 0;
+font-size: 18px;
+  margin-top: 10px;
 }
 
 p:not(:last-child) {
@@ -59,8 +60,8 @@ p:not(:last-child) {
   align-items: center;
   max-width: 400px;
   height: auto;
-  min-height: 400px;
-  padding: 35px;
+  min-height: 500px;
+  padding: 30px;
   margin-top: 50px;
   border: 1px solid rgba(255, 255, 255, .25);
   border-radius: 20px;

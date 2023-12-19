@@ -276,6 +276,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  #hero .animated {
+    margin-left: 84px;
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;

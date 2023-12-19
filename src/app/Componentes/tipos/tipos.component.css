@@ -41,7 +41,7 @@ h1:last-of-type {
     border-radius: 50%;
     padding: 15px;
     color: #ffffff;
-    background-color: #7d1bf9;
+    background-image: linear-gradient(to top, #0597F2 0%, #5a1bf9 100%);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.431);
 }
 
