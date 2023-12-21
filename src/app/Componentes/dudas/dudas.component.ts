@@ -22,6 +22,11 @@ export class DudasComponent {
       content: 'Por supuesto, usted puede ver el proceso de su web mientras lo estamos realizando sin problemas.',
       isOpen: false  // Cambiado a false
     },
+    {
+      title: '¿El sitio será adaptable a dispositivos móviles?',
+      content: 'Si, el sitio web es totalmente adaptable, se adapta a pantallas de celulares, tablets, notebook, pc.',
+      isOpen: false  // Cambiado a false
+    },
   ];
 
   toggleItem(index: number): void {
