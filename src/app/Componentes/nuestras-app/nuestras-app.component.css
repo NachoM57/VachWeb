@@ -14,8 +14,10 @@ h1:last-of-type {
 }
 
 @media screen and (max-width: 458px) {
-  h1:first-of-type, h1:last-of-type {
-   font-size: 40px;
+
+  h1:first-of-type,
+  h1:last-of-type {
+    font-size: 40px;
   }
 }
 
@@ -45,23 +47,24 @@ h1:last-of-type {
 }
 
 
-  .imgvisto {
-    width: 40px;
-    margin: 15px;
-  }
+.imgvisto {
+  width: 40px;
+  margin: 15px;
+}
 
-  .img-fluid {
-    width: 500px;
-  }
+.img-fluid {
+  width: 500px;
+}
 
-  .zoom-container {
-    overflow: hidden;
+.zoom-container {
+  overflow: hidden;
 }
 
 .zoom-img {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .zoom-container:hover .zoom-img {
-    transform: scale(1.2); /* Ajusta el valor según sea necesario para tu efecto de zoom */
+  transform: scale(1.2);
+  /* Ajusta el valor según sea necesario para tu efecto de zoom */
 }

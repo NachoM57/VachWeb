@@ -6,7 +6,7 @@
   padding: 30px;
   color: #224;
   background:
-    url("../../../assets/imagenes/fondodepantalla.jpeg") center / cover no-repeat fixed;
+    url("https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Ffondodepantalla.jpeg?alt=media&token=3eacf6a6-d114-4d65-8c87-690b683bf3c4") center / cover no-repeat fixed;
 }
 
 .container {
@@ -26,8 +26,10 @@ h1:last-of-type {
 }
 
 @media screen and (max-width: 458px) {
-  h1:first-of-type, h1:last-of-type {
-   font-size: 40px;
+
+  h1:first-of-type,
+  h1:last-of-type {
+    font-size: 40px;
   }
 }
 
@@ -54,7 +56,7 @@ h1:last-of-type {
 }
 
 p {
-font-size: 18px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
@@ -98,13 +100,16 @@ p:not(:last-child) {
   .container {
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Asegura que los elementos estén centrados */
+    justify-content: center;
+    /* Asegura que los elementos estén centrados */
   }
 
   .card {
-    width: 100%; /* Ajusta el ancho para dispositivos más pequeños */
+    width: 100%;
+    /* Ajusta el ancho para dispositivos más pequeños */
     min-height: 250px;
     padding: 20px;
-    margin: 20px auto; /* Margen automático para centrar horizontalmente */
+    margin: 20px auto;
+    /* Margen automático para centrar horizontalmente */
   }
 }

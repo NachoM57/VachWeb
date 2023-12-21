@@ -19,15 +19,15 @@ export class BannerComponent implements OnInit {
   navigateTo(event: Event, elementId: string): void {
     event.preventDefault(); // Prevenir la navegación por defecto
     const element = document.getElementById(elementId);
-    
+
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-  
+
       // Cerrar el menú después de la navegación
       this.closeMenu();
     }
   }
-  
+
   closeMenu() {
     // Lógica para cerrar el menú, por ejemplo, desmarcar la casilla del interruptor
     const toggler = document.querySelector('.toggler') as HTMLInputElement;
@@ -35,6 +35,6 @@ export class BannerComponent implements OnInit {
       toggler.checked = false;
     }
   }
-  
-  
+
+
 }

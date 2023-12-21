@@ -7,10 +7,11 @@
           <ul>
             <li (click)="toggleItem(i)" *ngFor="let item of accordionItems; let i = index">
               <a class="collapse">
-                <span>{{ i+1 < 10 ? '0' : ''}}{{ i+1 }}</span> {{ item.title }}
-                <i class="fa" [ngClass]="{'fa-chevron-down': !item.isOpen, 'fa-chevron-up': item.isOpen}"></i>
+                <span>{{ i+1 < 10 ? '0' : '' }}{{ i+1 }}</span> {{ item.title }}
+                    <i class="fa" [ngClass]="{'fa-chevron-down': !item.isOpen, 'fa-chevron-up': item.isOpen}"></i>
               </a>
-              <div [id]="'accordion-list-' + (i+1)" [class]="item.isOpen ? 'collapse show' : 'collapse'" data-bs-parent=".accordion-list">
+              <div [id]="'accordion-list-' + (i+1)" [class]="item.isOpen ? 'collapse show' : 'collapse'"
+                data-bs-parent=".accordion-list">
                 <p>
                   {{ item.content }}
                 </p>

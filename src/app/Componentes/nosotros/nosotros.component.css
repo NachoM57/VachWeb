@@ -1,30 +1,32 @@
 #nosotros {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 
 h1:first-of-type {
-    color: hsl(0, 0%, 0%);
-    margin-top: 20px;
-    font-size: 48px;
-    font-weight: 700;
-  }
-  
-  h1:last-of-type {
-    color: hsl(0, 0%, 0%);
-  }
+  color: hsl(0, 0%, 0%);
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
 
-  @media (max-width: 768px) {
-    h1:first-of-type, h1:last-of-type {
-        font-size: 35px;
-        line-height: 36px;
-      }
-    } 
-  
+h1:last-of-type {
+  color: hsl(0, 0%, 0%);
+}
+
+@media (max-width: 768px) {
+
+  h1:first-of-type,
+  h1:last-of-type {
+    font-size: 35px;
+    line-height: 36px;
+  }
+}
+
 
 p {
-    font-size: 20px;
-    margin-top: 50px;
+  font-size: 20px;
+  margin-top: 50px;
 }
 
 
