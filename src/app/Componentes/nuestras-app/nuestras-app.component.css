@@ -13,6 +13,15 @@ h1:last-of-type {
   color: hsl(0, 0%, 0%);
 }
 
+@media screen and (max-width: 458px) {
+  h1:first-of-type, h1:last-of-type {
+   font-size: 40px;
+  }
+}
+
+
+
+
 .list-group-item {
   justify-content: start;
   border: none;

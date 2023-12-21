@@ -22,6 +22,14 @@ h1:last-of-type {
   color: hsl(0, 0%, 100%);
 }
 
+@media screen and (max-width: 458px) {
+  h1:first-of-type, h1:last-of-type {
+   font-size: 40px;
+  }
+}
+
+
+
 
 
 form {
@@ -109,11 +117,11 @@ label {
 }
 
 .wrapper .icon.facebook:hover {
-  background-color: #6C63FF;
+  background-color: #9bb1ff;
 }
 
 .wrapper .icon.instagram:hover {
-  background-color: #6C63FF;
+  background-color: #9bb1ff;
 }
 
 a {
@@ -129,9 +137,9 @@ a {
 }
 
 .Copyright a {
-  color: #7e77ff;
+  color: #9bb1ff;
 }
 
 .Copyright a:hover {
-  color: #6C63FF;
+  color: #5465ff;
 }

@@ -37,7 +37,7 @@
   width: 70px;
   height: 71px;
   padding: 1rem;
-  background-color: #6C63FF;
+  background-color: #5465ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,7 +154,7 @@
 }
 
 .menu-wrap .menu>div>div>ul>li>a:hover {
-  color: #6C63FF;
+  color: #9bb1ff;
 }
 
 /*Fin Menu hamburguesa*/
@@ -171,7 +171,7 @@ a {
 #header {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
-  background-color: #a8a3ff;
+  background-color: #9bb1ff;
   transition: all 0.5s;
   padding: 15px 0;
 }
@@ -204,7 +204,6 @@ a {
 #hero {
   width: 100%;
   height: 721px;
-  background-color: #ffffff;
 }
 
 #hero .container {
@@ -213,14 +212,14 @@ a {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 57px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 56px;
   color: #000000d8;
 }
 
 #hero h1 span {
-  color: #0597F2;
+  color: #5465ff;
 }
 
 #hero h2 {
@@ -240,7 +239,7 @@ a {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #ffffff;
-  background: #0597F2;
+  background: #5465ff;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.265);
   transition: transform 0.3s;
 }
@@ -281,7 +280,7 @@ a {
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 36px;
   }
 

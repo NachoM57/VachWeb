@@ -20,6 +20,15 @@ h1:last-of-type {
     color: hsl(0, 0%, 0%);
 }
 
+@media screen and (max-width: 458px) {
+    h1:first-of-type, h1:last-of-type {
+     font-size: 40px;
+    }
+  }
+
+  
+  
+
 
 
 .card {
@@ -41,8 +50,8 @@ h1:last-of-type {
     border-radius: 50%;
     padding: 15px;
     color: #ffffff;
-    background-image: linear-gradient(to top, #0597F2 0%, #5a1bf9 100%);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.431);
+    background-image: linear-gradient(to top, #788bff 0%, #5465ff 100%);
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.431);
 }
 
 h3 {
@@ -50,6 +59,3 @@ h3 {
 }
 
 
-.card-text {
-    font-size: 20px;
-}

@@ -1,5 +1,5 @@
 #why-us {
-background-color:  #7d1bf9;
+  background-image: linear-gradient(to right, #5465ff 0%, #9bb1ff 100%);
 }
 
 
@@ -12,6 +12,16 @@ h1:first-of-type {
 h1:last-of-type {
   color: #ffffff;
 }
+
+@media screen and (max-width: 458px) {
+
+  h1:first-of-type,
+  h1:last-of-type {
+    font-size: 40px;
+  }
+}
+
+
 
 
 .row {
@@ -40,11 +50,14 @@ h1:last-of-type {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+  transition: transform 0.2s;
 }
 
 .why-us .accordion-list li:hover {
-  background-color: rgb(248, 248, 248);
+transform: scale(1.02);
 }
+
+
 
 .why-us .accordion-list a {
   color: #000000;
@@ -52,7 +65,7 @@ h1:last-of-type {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
@@ -76,7 +89,10 @@ h1:last-of-type {
 
 .why-us .accordion-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 30px;
+  color: #000000af;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 

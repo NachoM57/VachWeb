@@ -25,6 +25,15 @@ h1:last-of-type {
   color: hsl(0, 0%, 100%);
 }
 
+@media screen and (max-width: 458px) {
+  h1:first-of-type, h1:last-of-type {
+   font-size: 40px;
+  }
+}
+
+
+
+
 
 .header {
   text-align: center;
@@ -60,7 +69,7 @@ p:not(:last-child) {
   align-items: center;
   max-width: 400px;
   height: auto;
-  min-height: 500px;
+  min-height: 400px;
   padding: 30px;
   margin-top: 50px;
   border: 1px solid rgba(255, 255, 255, .25);

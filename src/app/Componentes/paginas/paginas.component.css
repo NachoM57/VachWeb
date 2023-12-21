@@ -17,6 +17,14 @@ h1:last-of-type {
   color: hsl(0, 0%, 0%);
 }
 
+@media screen and (max-width: 458px) {
+  h1:first-of-type, h1:last-of-type {
+   font-size: 40px;
+  }
+}
+
+
+
 
 .row {
   display: flex;
@@ -31,8 +39,9 @@ h1:last-of-type {
   padding: 0;
   transition: transform 0.3s;
   cursor: pointer;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.3);
 }
+
 
 img {
   max-width: 15rem;
@@ -42,7 +51,17 @@ img {
   transform: scale(1.05);
 }
 
+.elementor-widget-container {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b254ff;
+  height: 100px;
+}
 
-
+.elementor-widget-container h2 {
+  color: #ffffff;
+}
 
 

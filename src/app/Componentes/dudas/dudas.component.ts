@@ -8,18 +8,18 @@ import { Component } from '@angular/core';
 export class DudasComponent {
   accordionItems = [
     {
-      title: 'Non consectetur a erat nam at lectus urna duis?',
-      content: 'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.',
+      title: '¿Qué métodos de pagos aceptan?',
+      content: 'Aceptamos efectivo y transferencias bancarias.',
       isOpen: false  // Cambiado a false
     },
     {
-      title: 'Feugiat scelerisque varius morbi enim nunc?',
-      content: 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.',
+      title: '¿El hosting y dominio es gratis?',
+      content: 'Así es, tanto el hosting como el dominio es bonificado durante el primer año hasta la renovación.',
       isOpen: false  // Cambiado a false
     },
     {
-      title: 'Feugiat scelerisque varius morbi enim nunc?',
-      content: 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.',
+      title: '¿Puedo ver el proceso?',
+      content: 'Por supuesto, usted puede ver el proceso de su web mientras lo estamos realizando sin problemas.',
       isOpen: false  // Cambiado a false
     },
   ];

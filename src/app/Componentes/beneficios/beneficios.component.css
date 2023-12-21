@@ -17,8 +17,15 @@ h1:last-of-type {
   color: hsl(0, 0%, 0%);
 }
 
+@media screen and (max-width: 458px) {
+  h1:first-of-type, h1:last-of-type {
+   font-size: 40px;
+  }
+}
+
+
 h1 span {
-  color: #0597F2;
+  color: #6C63FF;
 }
 
 .list-group {
@@ -51,9 +58,36 @@ h1 span {
   margin-right: 15px;
   border-radius: 50%;
   padding: 15px;
-  color: #00aeff;
+  color: #47b2e4;
   box-shadow: 0px 6px 13px 0px rgba(41.999999999999986,67.00000000000004,113,.15);
 }
+
+/* boton */
+a {
+  text-decoration: none;
+}
+
+ .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 8px;
+  transition: 0.5s;
+  margin: 40px 0 0 0;
+  color: #ffffff;
+  background: #5465ff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.265);
+  transition: transform 0.3s;
+}
+
+ .btn-get-started:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.383);
+  transform: scale(1.04);
+}
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
