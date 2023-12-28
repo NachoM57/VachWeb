@@ -1,5 +1,6 @@
 #header img {
   width: 180px;
+  height: 42px;
 }
 
 
@@ -181,20 +182,6 @@ a {
   background: rgba(40, 58, 90, 0.9);
 }
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#header .logo a {
-  color: #fff;
-}
-
 
 
 
@@ -271,6 +258,7 @@ a {
 
   #hero .hero-img img {
     width: 50%;
+    height: 100%;
   }
 }
 
@@ -292,12 +280,14 @@ a {
 
   #hero .hero-img img {
     width: 70%;
+    height: 100%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    height: 100%;
   }
 
   #hero .btn-get-started {
