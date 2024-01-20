@@ -287,7 +287,8 @@ a {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    margin-left: 67px;
+    margin-bottom: 40px;
+    margin-left: 80px;
     width: 80%;
     height: 100%;
   }
