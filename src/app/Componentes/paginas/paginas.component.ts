@@ -16,7 +16,6 @@ export class PaginasComponent implements OnInit {
   ngOnInit(): void {
     //esto es almacenar en la variable de instancia los datos recuperados por el servicio
     this.dataService.getDatos().subscribe(landing => {
-      console.log(landing);
       //definir informacion a mostrar;
       this.paginas = landing.paginas;
 
