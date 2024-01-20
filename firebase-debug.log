@@ -1,0 +1,132 @@
+[debug] [2024-01-20T21:02:58.858Z] ----------------------------------------------------------------------
+[debug] [2024-01-20T21:02:58.860Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nacho\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-01-20T21:02:58.860Z] CLI Version:   12.7.0
+[debug] [2024-01-20T21:02:58.860Z] Platform:      win32
+[debug] [2024-01-20T21:02:58.861Z] Node Version:  v18.13.0
+[debug] [2024-01-20T21:02:58.861Z] Time:          Sat Jan 20 2024 18:02:58 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-01-20T21:02:58.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-20T21:02:58.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-20T21:02:58.941Z] > authorizing via signed-in user (ignaciomaiorino50@gmail.com)
+[debug] [2024-01-20T21:02:58.942Z] [iam] checking project codeweb-776b0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-20T21:02:58.943Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/codeweb-776b0:testIamPermissions [none]
+[debug] [2024-01-20T21:02:58.943Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/codeweb-776b0:testIamPermissions x-goog-quota-user=projects/codeweb-776b0
+[debug] [2024-01-20T21:02:58.944Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/codeweb-776b0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-20T21:03:00.198Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/codeweb-776b0:testIamPermissions 200
+[debug] [2024-01-20T21:03:00.198Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/codeweb-776b0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-20T21:03:00.199Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/codeweb-776b0 [none]
+[debug] [2024-01-20T21:03:01.556Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/codeweb-776b0 200
+[debug] [2024-01-20T21:03:01.556Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/codeweb-776b0 {"projectId":"codeweb-776b0","projectNumber":"654226499091","displayName":"CodeWeb","name":"projects/codeweb-776b0","resources":{"hostingSite":"codeweb-776b0","storageBucket":"codeweb-776b0.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_58ed9fc6-c51a-49e2-930a-bb9ba88870a1"}
+[info] 
+[info] === Deploying to 'codeweb-776b0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-01-20T21:03:01.565Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions [none]
+[debug] [2024-01-20T21:03:01.565Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-01-20T21:03:03.116Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions 200
+[debug] [2024-01-20T21:03:03.117Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions {"name":"projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[codeweb-776b0]: beginning deploy... 
+[info] i  hosting[codeweb-776b0]: found 7 files in dist/landing-page 
+[debug] [2024-01-20T21:03:03.128Z] [hosting] uploading with 200 concurrency
+[debug] [2024-01-20T21:03:03.152Z] [hosting] hash cache [ZGlzdFxsYW5kaW5nLXBhZ2U] stored for 7 files
+[debug] [2024-01-20T21:03:03.152Z] [hosting][hash queue][FINAL] {"max":16,"min":0,"avg":6.428571428571429,"active":0,"complete":7,"success":7,"errored":0,"retried":0,"total":7,"elapsed":22}
+[debug] [2024-01-20T21:03:03.152Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0:populateFiles [none]
+[debug] [2024-01-20T21:03:03.152Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0:populateFiles {"files":{"/assets/json/landing.json":"52d21e33d50920ef3837b250d3107a82d3b79763ec9d38fd3703ff6ce4a3608c","/3rdpartylicenses.txt":"e8ec502543ea39eb4c20a0b571b4128ff38305cabae6963397d4cf2f5bf333e6","/runtime.b493216eebfdcd32.js":"55c0fa1bf53177723fdbb254820898cb82a3bb456550ed0f39833415ece1ef33","/styles.d301322e88c946e2.css":"1231cacb5b959bace83ce94ad1df607eb8b258c62f5fee0d141e3a681bbe4661","/polyfills.0c13efe21891bdb8.js":"a3ada7416d7e7e89d16c59d304f674e783b514a9c87c0b49e162a33c42126f55","/index.html":"30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd","/main.6435f11c689a171c.js":"6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972"}}
+[debug] [2024-01-20T21:03:04.540Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0:populateFiles 200
+[debug] [2024-01-20T21:03:04.540Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0:populateFiles {"uploadRequiredHashes":["30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd","6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files"}
+[debug] [2024-01-20T21:03:04.541Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd [none]
+[debug] [2024-01-20T21:03:04.542Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd [stream]
+[debug] [2024-01-20T21:03:04.543Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972 [none]
+[debug] [2024-01-20T21:03:04.543Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972 [stream]
+[debug] [2024-01-20T21:03:04.545Z] [hosting][populate queue][FINAL] {"max":1392,"min":1392,"avg":1392,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1396}
+[debug] [2024-01-20T21:03:04.545Z] [hosting] uploads queued: 2
+[debug] [2024-01-20T21:03:06.635Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd 200
+[debug] [2024-01-20T21:03:06.635Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/30361e91facc4605afe49a19c4151d06545fa6c14addd1d421665378ed1b27dd [stream]
+[debug] [2024-01-20T21:03:06.701Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972 200
+[debug] [2024-01-20T21:03:06.701Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/codeweb-776b0/versions/fc025470d96212a0/files/6045966e989802858564862fe7bc4b4f7405656e57b43ed5b258901e0d5bc972 [stream]
+[debug] [2024-01-20T21:03:06.701Z] [hosting][upload queue][FINAL] {"max":2160,"min":2095,"avg":2127.5,"active":0,"complete":2,"success":2,"errored":0,"retried":0,"total":2,"elapsed":2161}
+[info] +  hosting[codeweb-776b0]: file upload complete 
+[debug] [2024-01-20T21:03:06.702Z] [hosting] deploy completed after 3582ms
+[debug] [2024-01-20T21:03:06.703Z] [
+  {
+    "config": {
+      "public": "dist/landing-page",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "/assets/**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=1296000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.css",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "**/*.js",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        },
+        {
+          "source": "**/*.html",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            }
+          ]
+        }
+      ],
+      "site": "codeweb-776b0"
+    },
+    "version": "projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0"
+  }
+]
+[info] i  hosting[codeweb-776b0]: finalizing version... 
+[debug] [2024-01-20T21:03:06.705Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions/fc025470d96212a0 updateMask=status%2Cconfig
+[debug] [2024-01-20T21:03:06.705Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions/fc025470d96212a0 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}],"headers":[{"glob":"/assets/**","headers":{"Cache-Control":"public, max-age=1296000"}},{"glob":"**/*.css","headers":{"Cache-Control":"no-cache, no-store, must-revalidate"}},{"glob":"**/*.js","headers":{"Cache-Control":"no-cache, no-store, must-revalidate"}},{"glob":"**/*.html","headers":{"Cache-Control":"no-cache, no-store, must-revalidate"}}]}}
+[debug] [2024-01-20T21:03:07.865Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions/fc025470d96212a0 200
+[debug] [2024-01-20T21:03:07.865Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/versions/fc025470d96212a0 {"name":"projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0","status":"FINALIZED","config":{"headers":[{"headers":{"Cache-Control":"public, max-age=1296000"},"glob":"/assets/**"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.css"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.js"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.html"}],"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-20T21:03:02.525067Z","createUser":{"email":"ignaciomaiorino50@gmail.com"},"finalizeTime":"2024-01-20T21:03:07.614676Z","finalizeUser":{"email":"ignaciomaiorino50@gmail.com"}}
+[debug] [2024-01-20T21:03:07.865Z] [hosting] finalized version for codeweb-776b0:[object Object]
+[info] +  hosting[codeweb-776b0]: version finalized 
+[info] i  hosting[codeweb-776b0]: releasing new version... 
+[debug] [2024-01-20T21:03:07.867Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/channels/live/releases versionName=projects%2F654226499091%2Fsites%2Fcodeweb-776b0%2Fversions%2Ffc025470d96212a0
+[debug] [2024-01-20T21:03:07.867Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/channels/live/releases {}
+[debug] [2024-01-20T21:03:09.152Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/channels/live/releases 200
+[debug] [2024-01-20T21:03:09.152Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/codeweb-776b0/channels/live/releases {"name":"projects/654226499091/sites/codeweb-776b0/channels/live/releases/1705784588313000","version":{"name":"projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0","status":"FINALIZED","config":{"headers":[{"headers":{"Cache-Control":"public, max-age=1296000"},"glob":"/assets/**"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.css"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.js"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.html"}],"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-20T21:03:02.525067Z","createUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"},"finalizeTime":"2024-01-20T21:03:07.614676Z","finalizeUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"}},"type":"DEPLOY","releaseTime":"2024-01-20T21:03:08.313Z","releaseUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"}}
+[debug] [2024-01-20T21:03:09.153Z] [hosting] release: {"name":"projects/654226499091/sites/codeweb-776b0/channels/live/releases/1705784588313000","version":{"name":"projects/654226499091/sites/codeweb-776b0/versions/fc025470d96212a0","status":"FINALIZED","config":{"headers":[{"headers":{"Cache-Control":"public, max-age=1296000"},"glob":"/assets/**"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.css"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.js"},{"headers":{"Cache-Control":"no-cache, no-store, must-revalidate"},"glob":"**/*.html"}],"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-20T21:03:02.525067Z","createUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"},"finalizeTime":"2024-01-20T21:03:07.614676Z","finalizeUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"}},"type":"DEPLOY","releaseTime":"2024-01-20T21:03:08.313Z","releaseUser":{"email":"ignaciomaiorino50@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocIJASJgZLT6yez6VOwSiAxap7vjMT3SA7Ax6k9Qm9v5m5wQ"}}
+[info] +  hosting[codeweb-776b0]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/codeweb-776b0/overview
+[info] Hosting URL: https://codeweb-776b0.web.app
+[debug] [2024-01-20T21:03:18.444Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\nacho\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
