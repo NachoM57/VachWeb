@@ -252,19 +252,20 @@ a {
 
 
 
-  #hero .hero-img {
-    text-align: center;
-  }
 
   #hero .hero-img img {
     width: 50%;
     height: 100%;
   }
+
+  #hero .animated {
+    margin-left: 492px;
+  }
 }
 
 @media (max-width: 768px) {
   #hero .animated {
-    margin-left: 84px;
+    margin-left: 279px;
   }
 
   #hero h1 {
@@ -286,6 +287,7 @@ a {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
+    margin-left: 67px;
     width: 80%;
     height: 100%;
   }

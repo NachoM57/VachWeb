@@ -58,6 +58,13 @@ h1:last-of-type {
   height: 550px;
 }
 
+@media (max-width: 483px) {
+  .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+}
+
 .zoom-container {
   overflow: hidden;
 }
