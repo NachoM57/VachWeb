@@ -15,6 +15,7 @@ import { DudasComponent } from './Componentes/dudas/dudas.component';
 import { BeneficiosComponent } from './Componentes/beneficios/beneficios.component';
 import { NuestrasAppComponent } from './Componentes/nuestras-app/nuestras-app.component';
 import { TiposComponent } from './Componentes/tipos/tipos.component';
+import { NavbarComponent } from './Componentes/navbar/navbar.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { TiposComponent } from './Componentes/tipos/tipos.component';
     BeneficiosComponent,
     NuestrasAppComponent,
     TiposComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
