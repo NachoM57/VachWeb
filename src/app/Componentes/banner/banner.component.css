@@ -1,187 +1,75 @@
-#header img {
-  width: 180px;
-  height: 42px;
-}
-
-
-
-/*Menu hamburguesa*/
-
-.menu-pointer {
-  cursor: pointer;
-}
-
-
-.menu-wrap {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.menu-wrap .toggler {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  opacity: 0;
-}
-
-.menu-wrap .hamburger {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 70px;
-  height: 72px;
-  padding: 1rem;
-  background-color: #5465ff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Hamburger line */
-.menu-wrap .hamburger>div {
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.4s ease;
-}
-
-/* Top and bottom lines */
-.menu-wrap .hamburger>div:before,
-.menu-wrap .hamburger>div:after {
-  content: '';
-  position: absolute;
-  z-index: 1;
-  top: -10px;
-  width: 100%;
-  height: 2px;
-  background: inherit;
-}
-
-/* Moves line down */
-.menu-wrap .hamburger>div:after {
-  top: 10px;
-}
-
-/* Toggler animate */
-.menu-wrap .toggler:checked+.hamburger>div {
-  transform: rotate(135deg);
-}
-
-/* Turn Lines into X */
-.menu-wrap .toggler:checked+.hamburger>div:before,
-.menu-wrap .toggler:checked+.hamburger>div:after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-/* Rotate on hover when checked */
-.menu-wrap .toggler:checked:hover+.hamburger>div {
-  transform: rotate(225deg);
-}
-
-/* Show menu */
-.menu-wrap .toggler:checked~.menu {
-  visibility: visible;
-}
-
-.menu-wrap .toggler:checked~.menu>div {
-  transform: scale(1);
-  transition-duration: 0.75s;
-}
-
-.menu-wrap .toggler:checked~.menu>div>div {
-  opacity: 1;
-  transition: opacity 0.4s ease;
-}
-
-.menu-wrap .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-wrap .menu>div {
-  background-color: rgba(0, 0, 0, 0.85);
-  border-radius: 50%;
-  width: 250vw;
-  height: 250vw;
-  display: flex;
-  flex: none;
-  align-items: center;
-  justify-content: center;
-  transform: scale(0);
-  transition: all 0.4s ease;
-}
-
-.menu-wrap .menu>div>div {
-  text-align: center;
-  max-width: 90vw;
-  max-height: 100vh;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.menu-wrap .menu>div>div>ul>li {
-  list-style: none;
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 10px;
-}
-
-
-
-.menu-wrap .menu>div>div>ul>li>a {
-  font-size: 25px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.menu-wrap .menu>div>div>ul>li>a:hover {
-  color: #9bb1ff;
-}
-
-/*Fin Menu hamburguesa*/
-
-
-
-/*banner*/
-a {
-  text-decoration: none;
-}
-
-
-
-#header {
-  width: 100%;
+header {
+  padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
   background-color: #9bb1ff;
-  transition: all 0.5s;
-  padding: 15px 0;
+}
+.logo {
+  width: 200px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.desktop_menu {
+  margin-top: 8px;
+}
+.desktop_menu ul {
+  padding: 0;
+  margin: 0;
+}
+.desktop_menu ul li {
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 26px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
-#header.header-scrolled,
-#header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+.desktop_menu ul li:hover {
+  transform: scale(1.08);
 }
 
+.menu-icon {
+  display: none;
+}
+
+@media screen and (min-width: 128px) and (max-width: 900px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-top: 5px;
+  }
+
+  .desktop_menu {
+    position: fixed !important;
+    right: -280px;
+    transition: 0.4s ease-in-out;
+    top: 70px;
+    background-color: #363636;
+    width: 280px;
+    height: 100%;
+    z-index: 2;
+  }
+  .desktop_menu ul li {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 10px 26px;
+    border-bottom: 1px solid grey;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 40px;
+  }
+  .mobile_menu {
+    right: 0;
+    transition: 0.4s ease-in-out;
+  }
+}
 
 
 
@@ -229,6 +117,7 @@ a {
   background: #5465ff;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.265);
   transition: transform 0.3s;
+  text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
@@ -290,7 +179,7 @@ a {
     margin-bottom: 60px;
     margin-left: 45px;
     width: 90%;
-    height: 100%;
+    height: 90%;
   }
 
   #hero .btn-get-started {

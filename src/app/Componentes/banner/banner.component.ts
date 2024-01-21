@@ -16,6 +16,17 @@ export class BannerComponent implements OnInit {
 
   }
 
+  menuValue:boolean=false;
+  menu_icon :string ='fa-solid fa-bars';
+  openMenu(){
+     this.menuValue =! this.menuValue ;
+     this.menu_icon = this.menuValue ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+   }
+    closeMenu() {
+     this.menuValue = false;
+     this.menu_icon = 'fa-solid fa-bars';
+   }
+
   navigateTo(event: Event, elementId: string): void {
     event.preventDefault(); // Prevenir la navegación por defecto
     const element = document.getElementById(elementId);
@@ -28,13 +39,6 @@ export class BannerComponent implements OnInit {
     }
   }
 
-  closeMenu() {
-    // Lógica para cerrar el menú, por ejemplo, desmarcar la casilla del interruptor
-    const toggler = document.querySelector('.toggler') as HTMLInputElement;
-    if (toggler) {
-      toggler.checked = false;
-    }
-  }
 
 
 }

@@ -1,55 +1,49 @@
-<nav id="header" class="fixed-top navbar">
-  <div class="container d-flex justify-content-end align-items-center">
-    <a href="/Inicio">
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.png?alt=media&token=eae86147-681c-4c5c-b5cf-0af0ed280806"
-        class="imglogo" alt="Logo de Vach">
-    </a>
-    <div class="menu-wrap">
-      <input type="checkbox" class="toggler">
-      <div class="hamburger">
-        <div></div>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <div class="logo">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.png?alt=media&token=eae86147-681c-4c5c-b5cf-0af0ed280806"
+            class="logo" alt="Logo de Vach">
+        </div>
       </div>
-      <div class="menu">
-        <div>
-          <div>
-            <ul>
-              <li>
-                <a class="menu-pointer" href="#hero" (click)="navigateTo($event,'hero')">Inicio</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#servicios" (click)="navigateTo($event,'servicios')">Servicios</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#beneficios" (click)="navigateTo($event,'beneficios')">Beneficios</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#why-us" (click)="navigateTo($event,'why-us')">Preguntas</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#tipos" (click)="navigateTo($event,'tipos')">Tipos de páginas</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#paginas" (click)="navigateTo($event,'paginas')">Trabajos realizados</a>
-              </li>
-              <li>
-                <a class="menu-pointer" href="#contacto" (click)="navigateTo($event,'contacto')">Contacto</a>
-              </li>
-            </ul>
-          </div>
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+        <div class="menu-icon" (click)="openMenu()">
+          <i class="{{menu_icon}}"></i>
+        </div>
+        <div class="desktop_menu" [class.mobile_menu]="menuValue">
+          <ul>
+            <li class="menu-pointer" href="#hero" (click)="navigateTo($event,'hero')">Inicio
+            </li>
+            <li class="menu-pointer" href="#servicios" (click)="navigateTo($event,'servicios')">Servicios
+            </li>
+            <li class="menu-pointer" href="#beneficios" (click)="navigateTo($event,'beneficios')">Beneficios
+            </li>
+            <li class="menu-pointer" href="#why-us" (click)="navigateTo($event,'why-us')">Preguntas
+            </li>
+            <li class="menu-pointer" href="#tipos" (click)="navigateTo($event,'tipos')">Tipos de páginas
+            </li>
+            <li class="menu-pointer" href="#paginas" (click)="navigateTo($event,'paginas')">Trabajos realizados
+            </li>
+            <li class="menu-pointer" href="#contacto" (click)="navigateTo($event,'contacto')">Contacto
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-</nav><!-- End Header -->
+</header><!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
-        <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Transformando ideas en <span>experiencias digitales</span></h1>
-        <h2 data-aos="fade-right" data-aos-duration="2500" data-aos-delay="500">Contáctenos y convierta su página web en un reflejo fiel de su identidad y visión.</h2>
+        <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Transformando ideas en
+          <span>experiencias digitales</span></h1>
+        <h2 data-aos="fade-right" data-aos-duration="2500" data-aos-delay="500">Contáctenos y convierta su página web en
+          un reflejo fiel de su identidad y visión.</h2>
         <div class="d-flex justify-content-center justify-content-lg-start">
           <a href="https://wa.me/3537661920" class="btn-get-started scrollto" target="_blank"
             rel="noopener noreferrer">Quiero mi página web!</a>
