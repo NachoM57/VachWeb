@@ -102,10 +102,10 @@
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    margin-bottom: 150px;
-    margin-left: 50px;
+    margin-bottom: 200px;
+    margin-left: 53px;
     width: 90%;
-    height: 90%;
+    height: 80%;
   }
 
   #hero .btn-get-started {
