@@ -44,7 +44,6 @@ h1 span {
   font-weight: 600;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .list-group-item:nth-child(odd) {

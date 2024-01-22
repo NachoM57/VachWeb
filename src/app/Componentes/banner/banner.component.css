@@ -101,9 +101,9 @@
 }
 
 @media (max-width: 575px) {
-#hero .container {
-  margin-bottom: 150px;
-}
+  #hero .container {
+    margin-bottom: 150px;
+  }
 
   #hero .hero-img img {
     margin-left: 133px;

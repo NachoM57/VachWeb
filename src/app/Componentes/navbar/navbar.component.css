@@ -1,74 +1,80 @@
 header {
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
-    background-color: #9bb1ff;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
+  background-color: #9bb1ff;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.desktop_menu {
+  margin-top: 8px;
+}
+
+.desktop_menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.desktop_menu ul li {
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 26px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.desktop_menu ul li:hover {
+  transform: scale(1.08);
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (min-width: 128px) and (max-width: 1270px) {
+  header {
+    padding: 10px;
   }
+
   .logo {
-    width: 200px;
+    margin-top: 5px;
   }
-  .logo:hover {
-    cursor: pointer;
-  }
+
   .desktop_menu {
-    margin-top: 8px;
+    position: fixed !important;
+    right: -280px;
+    transition: 0.4s ease-in-out;
+    top: 70px;
+    background-color: #363636;
+    width: 280px;
+    height: 100%;
+    z-index: 2;
   }
-  .desktop_menu ul {
-    padding: 0;
-    margin: 0;
-  }
+
   .desktop_menu ul li {
-    list-style-type: none;
-    color: white;
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 26px;
-    cursor: pointer;
-    transition: transform 0.2s;
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 10px 26px;
+    border-bottom: 1px solid rgb(128, 128, 128);
   }
-  
-  .desktop_menu ul li:hover {
-    transform: scale(1.08);
-  }
-  
+
   .menu-icon {
-    display: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
   }
-  
-  @media screen and (min-width: 128px) and (max-width: 1270px) {
-    header {
-      padding: 10px;
-    }
-  
-    .logo {
-      margin-top: 5px;
-    }
-  
-    .desktop_menu {
-      position: fixed !important;
-      right: -280px;
-      transition: 0.4s ease-in-out;
-      top: 70px;
-      background-color: #363636;
-      width: 280px;
-      height: 100%;
-      z-index: 2;
-    }
-    .desktop_menu ul li {
-      display: block;
-      text-align: left;
-      margin: 0;
-      padding: 10px 0 10px 26px;
-      border-bottom: 1px solid grey;
-    }
-    .menu-icon {
-      display: block;
-      color: white;
-      font-size: 40px;
-    }
-    .mobile_menu {
-      right: 0;
-      transition: 0.4s ease-in-out;
-    }
+
+  .mobile_menu {
+    right: 0;
+    transition: 0.4s ease-in-out;
   }
-  
-  
+}
