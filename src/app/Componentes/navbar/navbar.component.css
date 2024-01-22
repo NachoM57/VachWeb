@@ -25,7 +25,7 @@ header {
   list-style-type: none;
   color: rgb(255, 255, 255);
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 26px;
   cursor: pointer;
   transition: transform 0.2s;

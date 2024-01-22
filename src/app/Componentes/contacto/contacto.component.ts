@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, TitleStrategy } from '@angular/router';
 
 @Component({
   selector: 'app-contacto',
@@ -9,5 +9,6 @@ import { Router } from '@angular/router';
 export class ContactoComponent {
 
   constructor(public router: Router) { }
+
 
 }
