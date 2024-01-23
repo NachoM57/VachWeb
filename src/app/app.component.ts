@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +9,4 @@ export class AppComponent {
   title = 'Code Web';
 
 
-  ngOnInit() {
-    AOS.init()
-    window.addEventListener('load', AOS.refresh)
-  }
 }
