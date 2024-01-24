@@ -3,8 +3,9 @@
   <div class="header">
     <h1>¿Que ofrecemos?</h1>
   </div>
-  <div class="container">
-    <div class="card" *ngFor="let serv of servicios">
+  <div class="container" >
+    <div class="card" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-duration="2000" *ngFor="let serv of servicios">
       <h2 class="text-center">{{serv.titulo}}</h2>
       <p class="text-center">{{serv.parrafo}}</p>
     </div>
