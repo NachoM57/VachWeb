@@ -2,46 +2,11 @@
   <div class="container">
     <h1 class="text-center">Tipos de Sitios web</h1>
     <div class="row">
-      <div class="card text-center">
-        <i class="fa-solid fa-plane-arrival"></i>
+      <div class="card text-center" *ngFor="let tip of tipos">
+        <i class={{tip.icono}}></i>
         <div class="card-body">
-          <h3>Landingpage</h3>
-          <p class="card-text">Página web diseñada para convertir visitantes en clientes potenciales.</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <div class="card-body">
-          <h3>Onepage</h3>
-          <p class="card-text">Lo más destacado de tu empresa en una única página.</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <i class="fa-solid fa-building-columns"></i>
-        <div class="card-body">
-          <h3>Institucional</h3>
-          <p class="card-text">Portal web que presenta información sobre una organización o empresa.</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <i class="fa-solid fa-utensils"></i>
-        <div class="card-body">
-          <h3>Restaurante</h3>
-          <p class="card-text">Sitio web que muestra menú, ubicación y detalles del restaurante.</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <i class="fa-solid fa-user-tie"></i>
-        <div class="card-body">
-          <h3>Profesionales</h3>
-          <p class="card-text">Sitio web que destaca habilidades y servicios de profesionales especializados.</p>
-        </div>
-      </div>
-      <div class="card text-center">
-        <i class="fa-solid fa-screwdriver-wrench"></i>
-        <div class="card-body">
-          <h3>Oficios</h3>
-          <p class="card-text">Sitio web que ofrece servicios especializados y habilidades en diversos oficios.</p>
+          <h3>{{tip.titulo}}</h3>
+          <p class="card-text">{{tip.descripcion}}</p>
         </div>
       </div>
     </div>

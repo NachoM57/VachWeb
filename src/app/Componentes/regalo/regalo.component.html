@@ -1,6 +1,6 @@
 <section id="regalo">
-    <div class="container-fluid">
-        <h1 class="text-center">REGALO</h1>
-        <h2 class="text-center">Hosting y Dominio Gratis por 1 Año</h2>
+    <div class="container-fluid" *ngFor="let reg of regalo">
+        <h1 class="text-center">{{reg.titulo}}</h1>
+        <h2 class="text-center">{{reg.subtitulo}}</h2>
     </div>
 </section>

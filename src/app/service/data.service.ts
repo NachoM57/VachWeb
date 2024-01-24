@@ -15,7 +15,7 @@ export class DataService {
   //metodo observable que devuelve los datos
   getDatos(): Observable<any> {
     //se llama al json con su path -ruta-, o bien, en su lugar se pujuede poner una URL para traer datos de un json online
-    return this.http.get('./assets/json/landing.json');
+    return this.http.get('./assets/json/datos.json');
   }
 
 

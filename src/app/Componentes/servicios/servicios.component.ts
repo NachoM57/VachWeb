@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { DataService } from 'src/app/service/data.service';
 
 
 @Component({
@@ -8,11 +8,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./servicios.component.css']
 })
 export class ServiciosComponent implements OnInit {
+  servicios: any = []
 
-
-  constructor(public router: Router) { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    //esto es almacenar en la variable de instancia los datos recuperados por el servicio
+    this.dataService.getDatos().subscribe(datos => {
+      //definir informacion a mostrar;
+      this.servicios = datos.servicios;
+      this.servicios = datos.servicios;
+    })
 
   }
 

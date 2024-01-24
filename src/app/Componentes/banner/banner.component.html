@@ -1,22 +1,19 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
   <div class="container">
-    <div class="row">
+    <div class="row" *ngFor="let bann of banner">
       <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
         <h1>Transformando ideas en
           <span>experiencias digitales</span>
         </h1>
-        <h2>Contáctenos y convierta su página web en
-          un reflejo fiel de su identidad y visión.</h2>
+        <h2>{{bann.subtitulo}}</h2>
         <div class="d-flex justify-content-center justify-content-lg-start">
           <a href="https://wa.me/3537661920" class="btn-get-started scrollto" target="_blank"
-            rel="noopener noreferrer">Quiero mi página web!</a>
+            rel="noopener noreferrer">{{bann.boton}}</a>
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Ffotobanner.png?alt=media&token=449c4972-9555-46e1-b004-df0141b0f10d"
-          class="img-fluid animated" alt="imagen del banner">
+        <img src={{bann.imagen}} class="img-fluid animated" alt={{bann.alt}}>
       </div>
     </div>
   </div>

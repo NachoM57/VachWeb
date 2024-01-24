@@ -1,0 +1,170 @@
+{
+    "navbar": [
+        {
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.png?alt=media&token=eae86147-681c-4c5c-b5cf-0af0ed280806",
+            "alt": "Logo de VachWeb",
+            "enlace1": "INICIO",
+            "enlace2": "SERVICIOS",
+            "enlace3": "BENEFICIOS",
+            "enlace4": "TIPOS DE PÁGINAS",
+            "enlace5": "TRABAJOS REALIZADOS",
+            "enlace6": "CONTACTO"
+        }
+    ],
+    "banner": [
+        {
+            "subtitulo": "Contáctenos y convierta su página web en un reflejo fiel de su identidad y visión.",
+            "boton": "¡Quiero mi página web!",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Ffotobanner.png?alt=media&token=449c4972-9555-46e1-b004-df0141b0f10d",
+            "alt": "imagen del banner"
+        }
+    ],
+    "nosotros": [
+        {
+            "subtitulo": "Te escuchamos y creamos tu sitio web personalizado.",
+            "texto": "Creamos la estructura visual, seleccionamos cuidadosamente las imágenes, redactamos los contenidos, programamos con precisión y finalmente, cargamos el resultado en la web.\n\n En Vach Web, nos dedicamos apasionadamente a proporcionar soluciones digitales innovadoras. Nos hemos especializado en el desarrollo personalizado de páginas web. La tecnología es nuestra gran motivación, impulsando cada proyecto que emprendemos.\n\n Únete a nosotros en esta travesía, donde la creatividad, la tecnología y la estrategia se encuentran para impulsar tu presencia en línea hacia nuevas alturas. En Code Web, convertimos ideas en experiencias digitales extraordinarias."
+        }
+    ],
+    "servicios": [
+        {
+            "id": 1,
+            "titulo": "Desarrollo de Sitios Web a medida",
+            "parrafo": "Nos especializamos en crear sitios web personalizados, con cada línea de código diseñada con precisión para cumplir tus necesidades específicas. Desde la idea hasta la ejecución, estamos comprometidos a desarrollar experiencias digitales excepcionales que impulsen tu éxito en línea."
+        },
+        {
+            "id": 2,
+            "titulo": "Mantenimiento y Soporte",
+            "parrafo": "Mantenimiento y Soporte Personalizado: Nos dedicamos a brindar servicios especializados para garantizar el rendimiento óptimo de tu sitio web en todo momento. Nuestro enfoque personalizado se adapta a tus necesidades específicas, ofreciendo actualizaciones regulares, resolución de problemas y respaldo técnico para asegurar un rendimiento continuo."
+        },
+        {
+            "id": 3,
+            "titulo": "Optimizacion SEO",
+            "parrafo": "Optimización SEO Personalizada: Valoramos la visibilidad en línea y ofrecemos servicios especializados en SEO para posicionar tu sitio web en los primeros resultados. Nuestro enfoque estratégico y adaptado amplía tu alcance, aumenta el tráfico orgánico y potencia tu presencia en línea."
+        }
+    ],
+    "beneficios": [
+        {
+            "id": 1,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Visibilidad global"
+        },
+        {
+            "id": 2,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Credibilidad y Confianza"
+        },
+        {
+            "id": 3,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Profesionalidad"
+        },
+        {
+            "id": 4,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Competitividad"
+        },
+        {
+            "id": 5,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Promoción de la Marca"
+        },
+        {
+            "id": 6,
+            "icono": "fa-solid fa-arrow-right",
+            "parrafo": "Posicionamiento en Motores\n\nde Búsqueda(SEO)"
+        }
+    ],
+    "regalo": [
+        {
+            "titulo": "REGALO",
+            "subtitulo": "Hosting y Dominio Gratis por 1 Año"
+        }
+    ],
+    "disenos": [
+        {
+            "id": 1,
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
+            "alt": "imagen visto",
+            "titulo": "Totalmente personalizado",
+            "descripcion": "No empleamos patrones ni formatos predefinidos de ninguna índole. El diseño de tu página web es exclusivo y adaptado a tus necesidades específicas."
+        },
+        {
+            "id": 2,
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
+            "alt": "imagen visto",
+            "titulo": "Adaptable a todas las pantallas",
+            "descripcion": "Nuestros sitios web son totalmente responsive, es decir, que se adaptan a todas las pantallas y resoluciones."
+        },
+        {
+            "id": 3,
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
+            "alt": "imagen visto",
+            "titulo": "Modernas y elegantes",
+            "descripcion": "Crea un significativo aporte a la identidad de tu marca colaborando con Ideamos. Nuestro meticuloso diseño y efectiva comunicación impulsarán el crecimiento de tu empresa, asegurado."
+        }
+    ],
+    "tipos": [
+        {
+            "id": 1,
+            "icono": "fa-solid fa-plane-arrival",
+            "titulo": "Landingpage",
+            "descripcion": "Página web diseñada para convertir visitantes en clientes potenciales."
+        },
+        {
+            "id": 2,
+            "icono": "fa-solid fa-magnifying-glass",
+            "titulo": "Onepage",
+            "descripcion": "Lo más destacado de tu empresa en una única página."
+        },
+        {
+            "id": 3,
+            "icono": "fa-solid fa-building-columns",
+            "titulo": "Institucional",
+            "descripcion": "Portal web que presenta información sobre una organización o empresa."
+        },
+        {
+            "id": 4,
+            "icono": "fa-solid fa-utensils",
+            "titulo": "Restaurante",
+            "descripcion": "Sitio web que muestra menú, ubicación y detalles del restaurante."
+        },
+        {
+            "id": 5,
+            "icono": "fa-solid fa-user-tie",
+            "titulo": "Profesionales",
+            "descripcion": "Sitio web que destaca habilidades y servicios de profesionales especializados."
+        },
+        {
+            "id": 6,
+            "icono": "fa-solid fa-screwdriver-wrench",
+            "titulo": "Oficios",
+            "descripcion": "Sitio web que ofrece servicios especializados y habilidades en diversos oficios."
+        }
+    ],
+    "paginas": [
+        {
+            "id": 1,
+            "href": "https://dimecosalud.com.ar/inicio",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FdimecosaludCaptura.png?alt=media&token=e7090b5d-1073-44d8-81b7-2f74be773dd3",
+            "alt": "Dimeco Salud"
+        },
+        {
+            "id": 2,
+            "href": "https://asistirbellville.com.ar/home",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FasistirbellvilleCaptura.png?alt=media&token=9aa026b5-dd81-4312-a25f-02da93e5a6fd",
+            "alt": "Asistir"
+        },
+        {
+            "id": 3,
+            "href": "https://mi-portafolio-db660.web.app/",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FmiportafolioCaptura.png?alt=media&token=6924bd70-5e66-4a03-8991-3f19c34f0272",
+            "alt": "Portafolio nacho"
+        },
+        {
+            "id": 4,
+            "href": "https://departamento-mar-del-plata.web.app/",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FdepartamentoCaptura.png?alt=media&token=029b3408-ed7d-4dcb-8aeb-0b9fbde5224d",
+            "alt": "departamento"
+        }
+    ]
+}

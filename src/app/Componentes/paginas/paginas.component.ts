@@ -8,18 +8,16 @@ import { DataService } from 'src/app/service/data.service';
   styleUrls: ['./paginas.component.css']
 })
 export class PaginasComponent implements OnInit {
-  //inicializar variables de instancia
   paginas: any = []
 
-  constructor(public router: Router, private dataService: DataService) { }
+  constructor(private dataService: DataService, public router: Router) { }
 
   ngOnInit(): void {
     //esto es almacenar en la variable de instancia los datos recuperados por el servicio
-    this.dataService.getDatos().subscribe(landing => {
+    this.dataService.getDatos().subscribe(datos => {
       //definir informacion a mostrar;
-      this.paginas = landing.paginas;
-
-
+      this.paginas = datos.paginas;
+      this.paginas = datos.paginas;
     })
 
   }

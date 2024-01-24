@@ -1,11 +1,9 @@
 <header>
   <div class="container">
-    <div class="row">
+    <div class="row" *ngFor="let nav of navbar">
       <div class="col-md-3 col-sm-3 col-3">
         <div class="logo">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.png?alt=media&token=eae86147-681c-4c5c-b5cf-0af0ed280806"
-            class="logo" alt="Logo de Vach">
+          <img src={{nav.imagen}} class="logo" alt={{nav.alt}}>
         </div>
       </div>
       <div class="col-md-9 col-sm-9 col-9 text-end">
@@ -14,17 +12,17 @@
         </div>
         <div class="desktop_menu" [class.mobile_menu]="menuValue">
           <ul>
-            <li class="menu-pointer" href="#hero" (click)="navigateTo($event,'hero')">INICIO
+            <li class="menu-pointer" href="#hero" (click)="navigateTo($event,'hero')">{{nav.enlace1}}
             </li>
-            <li class="menu-pointer" href="#servicios" (click)="navigateTo($event,'servicios')">SERVICIOS
+            <li class="menu-pointer" href="#servicios" (click)="navigateTo($event,'servicios')">{{nav.enlace2}}
             </li>
-            <li class="menu-pointer" href="#beneficios" (click)="navigateTo($event,'beneficios')">BENEFICIOS
+            <li class="menu-pointer" href="#beneficios" (click)="navigateTo($event,'beneficios')">{{nav.enlace3}}
             </li>
-            <li class="menu-pointer" href="#tipos" (click)="navigateTo($event,'tipos')">TIPOS DE PÁGINAS
+            <li class="menu-pointer" href="#tipos" (click)="navigateTo($event,'tipos')">{{nav.enlace4}}
             </li>
-            <li class="menu-pointer" href="#paginas" (click)="navigateTo($event,'paginas')">TRABAJOS REALIZADOS
+            <li class="menu-pointer" href="#paginas" (click)="navigateTo($event,'paginas')">{{nav.enlace5}}
             </li>
-            <li class="menu-pointer" href="#contacto" (click)="navigateTo($event,'contacto')">CONTACTO
+            <li class="menu-pointer" href="#contacto" (click)="navigateTo($event,'contacto')">{{nav.enlace6}}
             </li>
           </ul>
         </div>
