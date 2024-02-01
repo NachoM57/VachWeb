@@ -1,15 +1,15 @@
 <section id="why-us" class="why-us section-bg">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-7"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+      <div class="col-lg-7">
         <h1 class="text-center">Dudas que pueden surgirte</h1>
         <div class="accordion-list">
           <ul>
             <li (click)="toggleItem(i)" *ngFor="let item of accordionItems; let i = index">
-              <a class="collapse">
+              <button class="collapse">
                 <span>{{ i+1 < 10 ? '0' : '' }}{{ i+1 }}</span> {{ item.title }}
                     <i class="fa" [ngClass]="{'fa-chevron-down': !item.isOpen, 'fa-chevron-up': item.isOpen}"></i>
-              </a>
+              </button>
               <div [id]="'accordion-list-' + (i+1)" [class]="item.isOpen ? 'collapse show' : 'collapse'"
                 data-bs-parent=".accordion-list">
                 <p>

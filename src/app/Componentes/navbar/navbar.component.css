@@ -1,7 +1,7 @@
 header {
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.176);
-  background-color: #9bb1ff;
+  background-color: #ffc59e;
 }
 
 .logo {
@@ -23,7 +23,7 @@ header {
 
 .desktop_menu ul li {
   list-style-type: none;
-  color: rgba(255, 255, 255, 0.788);
+  color: rgba(0, 0, 0, 0.788);
   display: inline-block;
   font-size: 18px;
   margin-left: 26px;
@@ -32,7 +32,7 @@ header {
 }
 
 .desktop_menu ul li:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transform: scale(1.08);
 }
 

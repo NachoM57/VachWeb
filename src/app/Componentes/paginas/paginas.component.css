@@ -44,7 +44,7 @@ h1:last-of-type {
   padding: 0;
   transition: transform 0.3s;
   cursor: pointer;
-  box-shadow: 4px 4px 14px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 14px -2px rgba(0, 0, 0, 0.755);
 }
 
 
@@ -63,7 +63,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #94a2ff 0%, #5465ff 100%);
+  background-image: linear-gradient(to right, #94a2ff 0%, #5800ff 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.305);
   height: 100px;
 }

@@ -1,5 +1,5 @@
 #why-us {
-  background-image: linear-gradient(to right, #5465ff 0%, #9bb1ff 100%);
+  background-image: linear-gradient(to right, #8101d2 0%, #c77dcc 100%);
 }
 
 
@@ -59,7 +59,8 @@ h1:last-of-type {
 
 
 
-.why-us .accordion-list a {
+.why-us .accordion-list button {
+  background-color: #ffffff;
   color: #000000;
   text-decoration: none;
   display: block;
@@ -71,10 +72,11 @@ h1:last-of-type {
   padding-right: 30px;
   outline: none;
   cursor: pointer;
+  border: none;
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #3100b1;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -85,6 +87,10 @@ h1:last-of-type {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.fa {
+  color: #3100b1;
 }
 
 .why-us .accordion-list p {
@@ -98,15 +104,15 @@ h1:last-of-type {
 
 
 
-.why-us .accordion-list a.collapse {
+.why-us .accordion-list .collapse {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapse .icon-show {
+.why-us .accordion-list .collapse .icon-show {
   display: inline-block;
 }
 
-.why-us .accordion-list a.collapse .icon-close {
+.why-us .accordion-list .collapse .icon-close {
   display: none;
 }
 

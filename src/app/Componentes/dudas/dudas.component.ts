@@ -32,4 +32,5 @@ export class DudasComponent {
   toggleItem(index: number): void {
     this.accordionItems[index].isOpen = !this.accordionItems[index].isOpen;
   }
+  
 }

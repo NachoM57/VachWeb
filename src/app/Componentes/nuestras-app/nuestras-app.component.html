@@ -12,10 +12,9 @@
 
             <!-- Columna para la lista -->
             <div class="col-lg-6">
-                <ul class="list-group text-center">
-                    <li class="list-group-item" data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom" data-aos-duration="2000" *ngFor="let dise of disenos"><img src={{dise.imagen}} class="imgvisto"
-                            alt={{dise.alt}}>
+                <ul class="list-group">
+                    <li class="list-group-item text-center" *ngFor="let dise of disenos">
+                        <img src={{dise.imagen}} class="imgvisto" alt={{dise.alt}}>
                         <h4>{{dise.titulo}}</h4>
                         <p>{{dise.descripcion}}</p>
                     </li>
