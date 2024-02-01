@@ -23,7 +23,7 @@ header {
 
 .desktop_menu ul li {
   list-style-type: none;
-  color: rgba(0, 0, 0, 0.788);
+  color: rgba(0, 0, 0, 0.746);
   display: inline-block;
   font-size: 18px;
   margin-left: 26px;
@@ -32,7 +32,6 @@ header {
 }
 
 .desktop_menu ul li:hover {
-  color: rgb(0, 0, 0);
   transform: scale(1.08);
 }
 
@@ -66,11 +65,12 @@ header {
     margin: 0;
     padding: 10px 0 10px 26px;
     border-bottom: 1px solid rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
   }
 
   .menu-icon {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
     font-size: 40px;
   }
 
