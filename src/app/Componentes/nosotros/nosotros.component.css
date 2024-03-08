@@ -4,14 +4,14 @@
 
 
 h1:first-of-type {
-  color: hsl(0, 92%, 53%);
+  color: hsl(0, 0%, 0%);
   margin-top: 20px;
   font-size: 48px;
   font-weight: 700;
 }
 
 h1:last-of-type {
-  color: hsl(0, 100%, 56%);
+  color: hsl(0, 0%, 0%);
 }
 
 @media (max-width: 768px) {
