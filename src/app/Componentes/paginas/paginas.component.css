@@ -63,7 +63,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #6248f7 0%, #c08eff 100%);
+  background-image: linear-gradient(to right, #a177fc 0%, #c08eff 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.305);
   height: 100px;
 }
