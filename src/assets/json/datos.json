@@ -107,13 +107,13 @@
         {
             "id": 1,
             "icono": "fa-solid fa-plane-arrival",
-            "titulo": "Landingpage",
+            "titulo": "Landing Page",
             "descripcion": "Página web diseñada para convertir visitantes en clientes potenciales."
         },
         {
             "id": 2,
             "icono": "fa-solid fa-magnifying-glass",
-            "titulo": "Onepage",
+            "titulo": "One Page",
             "descripcion": "Lo más destacado de tu empresa en una única página."
         },
         {
@@ -145,7 +145,7 @@
         {
             "id": 1,
             "href": "https://dimecosalud.com.ar/inicio",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FdimecosaludCaptura.png?alt=media&token=e7090b5d-1073-44d8-81b7-2f74be773dd3",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FDimecoCaptura.png?alt=media&token=b4915ce5-bf3d-453e-b7a8-4da1a1240f89",
             "alt": "Dimeco Salud"
         },
         {
