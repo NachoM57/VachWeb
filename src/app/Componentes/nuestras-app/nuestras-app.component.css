@@ -67,7 +67,7 @@ h1:last-of-type {
 
 @media (max-width: 483px) {
   .img-fluid {
-    width: 100%;
+    width: 70%;
     height: 100%;
   }
 }
