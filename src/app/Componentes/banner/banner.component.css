@@ -17,7 +17,7 @@
 }
 
 #hero h1 span {
-  color: #ffad5b;
+  color: #6248f7;
 }
 
 #hero h2 {
@@ -38,7 +38,7 @@
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #ffffff;
-  background: #5800ff;
+  background: #4230f4;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.265);
   transition: transform 0.3s;
   text-decoration: none;

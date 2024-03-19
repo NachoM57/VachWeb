@@ -119,11 +119,11 @@ label {
 }
 
 .wrapper .icon.facebook:hover {
-  background-color: #0186c9;
+  background-color: #815ffa;
 }
 
 .wrapper .icon.instagram:hover {
-  background-color: #0186c9;
+  background-color: #815ffa;
 }
 
 a {
@@ -139,9 +139,9 @@ a {
 }
 
 .Copyright a {
-  color: #8d08ea;
+  color: #815ffa;
 }
 
 .Copyright a:hover {
-  color: #9500ff;
+  color: #6248f7;
 }

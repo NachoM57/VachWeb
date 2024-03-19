@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #000000d0;
+  background-color: #000000;
   /* o cualquier otro color que prefieras */
   color: #fff;
   /* color del icono */
@@ -13,10 +13,6 @@
   z-index: 1000;
 }
 
-
-.scroll-to-top:active {
-  background-color: #000000;
-}
 
 
 /* Botón de WhatsApp */

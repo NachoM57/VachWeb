@@ -1,5 +1,5 @@
 #why-us {
-  background-image: linear-gradient(to right, #8101d2 0%, #c77dcc 100%);
+  background-image: linear-gradient(to right, #6248f7 0%, #c08eff 100%);
 }
 
 
@@ -76,7 +76,7 @@ h1:last-of-type {
 }
 
 .why-us .accordion-list span {
-  color: #3100b1;
+  color: #4230f4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -90,7 +90,8 @@ h1:last-of-type {
 }
 
 .fa {
-  color: #3100b1;
+  transition: opacity 0.3s ease;
+  color: #4230f4;
 }
 
 .why-us .accordion-list p {
