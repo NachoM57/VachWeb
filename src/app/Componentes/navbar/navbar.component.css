@@ -5,6 +5,7 @@ header {
 
 .logo {
   width: 200px;
+  height: 45px;
 }
 
 .logo:hover {

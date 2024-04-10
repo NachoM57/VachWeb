@@ -1,6 +1,6 @@
 <section id="nosotros">
     <div class="container" *ngFor="let nosot of nosotros">
-        <h1>Desarrollamos<br>tu página <span>desde cero.</span></h1>
+        <h1>Desarrollamos<br>tu sitio web <span>Desde cero.</span></h1>
         <h4>{{nosot.subtitulo}}</h4>
         <p [innerHTML]="transformToHtmlBreaks(nosot.texto)">
             {{nosot.texto}}

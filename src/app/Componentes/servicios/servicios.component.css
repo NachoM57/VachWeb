@@ -44,17 +44,6 @@ h1:last-of-type {
 
 
 
-:root {
-  font-size: 20px;
-  box-sizing: inherit;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 p {
   font-size: 18px;
   margin-top: 10px;
