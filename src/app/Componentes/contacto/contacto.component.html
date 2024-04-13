@@ -17,15 +17,21 @@
     <div class="header">
       <h1>Trabajemos juntos</h1>
     </div>
-    <form id="contact-form" action="https://formspree.io/f/mjvnykvn" method="post">
+    <form id="contact-form"  (submit)="sendEmail($event)" *ngIf="!sendContainer; else sentMessage">
       <label for="name">Nombre y Apellido:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="from_name" name="from_name" placeholder="Escribe tu nombre..."
+      required>
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email"  id="email_id" name="email_id" placeholder="Escribe tu email..." required>
       <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" required></textarea>
+      <textarea  id="message" name="message" placeholder="Escribe un mensaje..." required></textarea>
       <input type="submit" value="Enviar">
     </form>
+    <ng-template #sentMessage>
+      <div class="alert alert-success text-center" role="alert">
+        Mensaje enviado
+      </div>
+    </ng-template>
     <hr>
     <!-- Copyright -->
     <div class="Copyright text-center p-3">
