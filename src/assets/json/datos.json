@@ -1,7 +1,7 @@
 {
     "navbar": [
         {
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.png?alt=media&token=eae86147-681c-4c5c-b5cf-0af0ed280806",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FLogo2.webp?alt=media&token=f2cc004e-b1ac-4849-845d-98741cd05e8b",
             "alt": "Logo de VachWeb",
             "enlace1": "INICIO",
             "enlace2": "SERVICIOS",
@@ -15,7 +15,7 @@
         {
             "subtitulo": "Contáctenos y convierta su página web en un reflejo fiel de su identidad y visión.",
             "boton": "¡Quiero mi página web!",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Ffotobanner.png?alt=media&token=449c4972-9555-46e1-b004-df0141b0f10d",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Ffotobanner.webp?alt=media&token=2d33c780-4557-4488-9212-1de71b7fc0d0",
             "alt": "imagen del banner"
         }
     ],
@@ -83,22 +83,19 @@
     "disenos": [
         {
             "id": 1,
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
-            "alt": "imagen visto",
+            "icono": "fa-solid fa-square-check fa-2xl",
             "titulo": "Totalmente personalizado",
             "descripcion": "No empleamos patrones ni formatos predefinidos de ninguna índole. El diseño de tu página web es exclusivo y adaptado a tus necesidades específicas."
         },
         {
             "id": 2,
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
-            "alt": "imagen visto",
+            "icono": "fa-solid fa-square-check fa-2xl",
             "titulo": "Adaptable a todas las pantallas",
             "descripcion": "Nuestros sitios web son totalmente responsive, es decir, que se adaptan a todas las pantallas y resoluciones."
         },
         {
             "id": 3,
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2Fvisto.png?alt=media&token=223151db-e34c-411b-a816-202591f0a5a0",
-            "alt": "imagen visto",
+            "icono": "fa-solid fa-square-check fa-2xl",
             "titulo": "Modernas y elegantes",
             "descripcion": "Crea un significativo aporte a la identidad de tu marca colaborando con Ideamos. Nuestro meticuloso diseño y efectiva comunicación impulsarán el crecimiento de tu empresa, asegurado."
         }
@@ -145,25 +142,25 @@
         {
             "id": 1,
             "href": "https://dimecosalud.com.ar/inicio",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FDimecoCaptura.png?alt=media&token=b4915ce5-bf3d-453e-b7a8-4da1a1240f89",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FDimecoCaptura.webp?alt=media&token=a2db1d83-f4de-446d-9cd4-31ebd0c413fd",
             "alt": "Dimeco Salud"
         },
         {
             "id": 2,
             "href": "https://asistirbellville.com.ar/home",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FasistirbellvilleCaptura.png?alt=media&token=9aa026b5-dd81-4312-a25f-02da93e5a6fd",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FasistirbellvilleCaptura.webp?alt=media&token=ce39ac44-b49f-4f1b-9edc-7bff62b871ce",
             "alt": "Asistir"
         },
         {
             "id": 3,
             "href": "https://mi-portafolio-db660.web.app/",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FmiportafolioCaptura.png?alt=media&token=6924bd70-5e66-4a03-8991-3f19c34f0272",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FmiportafolioCaptura.webp?alt=media&token=3698799e-59ce-4732-b513-874caa6cbc84",
             "alt": "Portafolio nacho"
         },
         {
             "id": 4,
             "href": "https://departamento-mar-del-plata.web.app/",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FdepartamentoCaptura.png?alt=media&token=029b3408-ed7d-4dcb-8aeb-0b9fbde5224d",
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/codeweb-776b0.appspot.com/o/imagenes%2FdepartamentoCaptura.webp?alt=media&token=0785672c-08c8-4bf1-bffe-842c76db3795",
             "alt": "departamento"
         }
     ]

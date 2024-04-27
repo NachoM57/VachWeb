@@ -24,12 +24,9 @@ h1:last-of-type {
   }
 }
 
-
-
-.imgvisto {
-  width: 40px;
-  height: 40px;
-  margin: 15px;
+i {
+  color: #26b636;
+  margin: 20px;
 }
 
 .img-fluid {
@@ -61,13 +58,5 @@ h1:last-of-type {
 @media (max-width: 768px) {
   .list-group-item p {
     padding: 0;
-  }
-}
-
-
-@media (max-width: 483px) {
-  .img-fluid {
-    width: 70%;
-    height: 100%;
   }
 }
